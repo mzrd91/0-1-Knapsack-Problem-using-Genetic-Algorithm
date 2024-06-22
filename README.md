@@ -38,6 +38,19 @@ Three problem instances are created to evaluate the algorithm:
 ## Results and Analysis
 The algorithm was run for three different problem instances, each with unique characteristics. The results include the weights, values, and capacity of the knapsack for each instance, as well as the average best solution over 30 independent runs. The chosen crossover method and mutation probability are crucial for the algorithm's performance, and their selection should be justified in the project report.
 
+### Results and Analysis
+
+The algorithm was run for three different problem instances, each with unique characteristics. The results include the weights, values, and capacity of the knapsack for each instance, as well as the average best solution over 30 independent runs. The chosen crossover method and mutation probability are crucial for the algorithm's performance, and their selection should be justified in the project report.
+
+#### uniform - No items fit in the knapsack
+![uniform](screenshots/uniform.png)
+
+#### one-point - All items fit in the knapsack
+![one-point](screenshots/one-point.png)
+
+#### multi-parent - Regular case
+![multi-parent](screenshots/multi-parent.png)
+
 ## Conclusion
 This project demonstrates the application of a Genetic Algorithm to the 0-1 knapsack problem, showcasing the implementation of different crossover methods and penalty approaches. The results highlight the algorithm's capability to find near-optimal solutions for various problem instances, emphasizing the importance of parameter tuning and method selection.
 
