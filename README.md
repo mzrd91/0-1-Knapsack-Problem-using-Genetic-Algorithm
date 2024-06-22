@@ -34,3 +34,10 @@ Three problem instances are created to evaluate the algorithm:
 | **Static Penalty Constant (c)** | 10     |
 | **Dynamic Penalty Coefficient (α)** | 0.1 |
 
+
+## Results and Analysis
+The algorithm was run for three different problem instances, each with unique characteristics. The results include the weights, values, and capacity of the knapsack for each instance, as well as the average best solution over 30 independent runs. The chosen crossover method and mutation probability are crucial for the algorithm's performance, and their selection should be justified in the project report.
+
+## Conclusion
+This project demonstrates the application of a Genetic Algorithm to the 0-1 knapsack problem, showcasing the implementation of different crossover methods and penalty approaches. The results highlight the algorithm's capability to find near-optimal solutions for various problem instances, emphasizing the importance of parameter tuning and method selection.
+
