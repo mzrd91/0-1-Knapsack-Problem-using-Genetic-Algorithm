@@ -1,5 +1,3 @@
-import random
-
 def mutation(chromosome, chrom_len, mutation_prob):
     mutated_chromosome = ''
     for i in range(chrom_len):
